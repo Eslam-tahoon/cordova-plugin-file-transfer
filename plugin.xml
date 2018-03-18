@@ -30,7 +30,8 @@
     <issue>https://issues.apache.org/jira/browse/CB/component/12320650</issue>
 
     <!-- <dependency id="cordova-plugin-file" version="^4.0.0" /> -->
-
+    <dependency id="cordova-plugin-file" url="https://github.com/apache/cordova-plugin-file#4.3.3" commit="4.3.3" />
+  
     <js-module src="www/FileTransferError.js" name="FileTransferError">
         <clobbers target="window.FileTransferError" />
     </js-module>
